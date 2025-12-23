@@ -1,0 +1,27 @@
+{
+  "genre": "（無選択）",
+
+  "exclude_examples": [],
+  "keep_examples": [],
+  "sample_titles": [],
+
+  "ignore_scoped": {
+    "__global__": [],
+    "TMP": [],
+    "__genre__": {}
+  },
+
+  "rules": [
+    {
+      "key": "R_TMP_EXAMPLE",
+      "name": "（サンプル）巻数表記の除去",
+      "pattern": "(第\\s*\\d+\\s*巻)",
+      "why": "巻数表記を一旦ノイズとして扱う例",
+      "enabled": false,
+      "flags": 0,
+      "source": "SAMPLE",
+      "scope": "TMP",
+      "apply_genre": ""
+    }
+  ]
+}
